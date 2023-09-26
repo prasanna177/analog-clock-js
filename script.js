@@ -13,9 +13,3 @@ function rotate() {
 }
 
 setInterval(rotate, 100);
-
-let value;
-
-do {
-  value = prompt('Enter a number > 100')
-} while (value < 100)
